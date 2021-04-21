@@ -1,6 +1,6 @@
 /*!
     @file
-    @brief заголовочный файл класса Complex
+    @brief Заголовочный файл класса Complex
 */
 #ifndef _MY_COMPLEX_H_
 #define _MY_COMPLEX_H_
@@ -40,7 +40,7 @@ class Complex
         operator double();
 
         /*!
-            @brief модуль комплексного числа
+            @brief Модуль комплексного числа
         */
         double abs();
 
@@ -58,20 +58,20 @@ class Complex
         Complex operator + (const double &);
 
         /*!
-            @brief  операция сложения
+            @brief  Операция сложения
         */
         friend Complex operator + (const double &, const Complex &);
         Complex operator - (const double &);
 
         /*!
-            @brief  операция вычитания
+            @brief  Операция вычитания
         */
         friend Complex operator - (const double &, const Complex &);
         Complex operator * (const Complex &);
         Complex operator * (const double&);
 
         /*!
-            @brief  операция умножения
+            @brief  Операция умножения
         */
         friend Complex operator * (const double &, const Complex &);
         Complex operator / (const double &);
