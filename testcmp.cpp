@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {//тестирование класса комплексных чисел
-    Complex A,B(-4), C(23.0, 45.9);
+    Complex A, B(-4), C(23.0, 45.9);
     cout << A << "," << B << "," << C << endl;
 
     A = B + C;
@@ -17,9 +17,9 @@ int main()
     cout << "M / 4.45 = " << M / 4.45 << endl;
 
     Complex D;
-  	cout << "Enter complex number D = ";
-  	cin >> D;
-    A + = C + D;
+    cout << "Enter complex number D = ";
+    cin >> D;
+    A += C + D;
     cout << " D = " << D << "\nA = " << A << endl;
 
     return 0;
