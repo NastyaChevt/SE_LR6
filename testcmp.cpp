@@ -1,3 +1,7 @@
+/*!
+    @file
+    @brief Файл с тестированием класса комплексных чисел
+*/
 #include <iostream>
 #include "mycomplex.h"
 
