@@ -1,6 +1,6 @@
 /*!
     @file
-    @brief Файл с описанием методов класса Complex.
+    @brief Файл с описанием методов класса Complex
 */
 #include <iostream>
 #include <cmath>
