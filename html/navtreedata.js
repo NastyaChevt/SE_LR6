@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "C++ sockets on Unix and Windows", "index.html", [
+  [ "LR8 - Программа работы с комплексными числами", "index.html", [
     [ "Классы", "annotated.html", [
       [ "Классы", "annotated.html", "annotated_dup" ],
       [ "Алфавитный указатель классов", "classes.html", null ],
